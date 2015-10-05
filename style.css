@@ -3,6 +3,15 @@
 	height: 400px;
 }
 
-body {
-    background-color: blue;
+* {
+    font-family: Calibri;
+}
+
+.item {
+	text-align: center;
+}
+
+
+.carousel-inner img {
+  margin: auto;
 }
