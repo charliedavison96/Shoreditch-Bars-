@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ <meta charset="utf-8">
+
+ <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Shoreditch Bars & Clubs</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeWqZFE5BX60WwbuehZ2k6eKSn0PnnoLE"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <script>
+
+  $(function() {
+
+  var map;
+  function initMap() {
+    console.log('Working')
+        map = new google.maps.Map(document.getElementById('map'), {
+        center: {
+          lat: 51.52349,
+          lng: -0.105587
+        },
+        zoom: 15
+      });
+     }
+
+    function createMarker(latitude, longitude) {
+     var marker = new google.maps.Marker({
+        position: { lat: latitude, lng: longitude },
+        // position: { lat: 52.52349, lng: -0.105587 },
+        map: map,
+        title: 'Shoredicth Bars & Clubs'
+      });
+     return marker;
+    }
+
+    function createMarkerAndInfoWindow() {
+      var marker = createMarker(51.523748, -0.077294);
+    }
+
+    // var infowindow = new google.maps.InfoWindow({
+    // content: contentString
+    // });
+
+   initMap(); 
+   createMarker(51.523748, -0.077294);
+   createMarker(51.525517, -0.085867);
+   createMarker(51.522266, -0.081189);
+   createMarker(51.526328, -0.078728);
+   createMarker(51.521025, -0.072436);
+   createMarker(51.526627, -0.080086); 
+
+ });
+  
+  </script>
+
+  <style>
+ 
+  </style>
+
+</head>
+
+<body>
+
+<div class="row">
+   <div class="col-md-12">
+
+  <h1><center>Shoreditch Bars & Clubs</center></h1>
+
+  <!-- Indicators -->
+    
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="http://www.star.com.au/sydney-nightlife/PublishingImages/mainFeatureImg_700x440_black_bar2.jpg" alt="Bar" width="900" height="741">
+      </div>
+
+      <div class="item">
+        <img src="http://theluxtraveller.com/wp-content/uploads/2013/08/sokyo_bar.jpg" alt="Bar" width="900" height="741">
+      </div>
+    
+      <div class="item">
+        <img src="https://s-media-cache-ak0.pinimg.com/736x/36/e4/45/36e4456e06f28562e4904501fbf6986c.jpg" alt="Bar" width="900" height="741">
+      </div>
+
+      <div class="item">
+        <img src="http://c4cc88ef21769763a8f43f8f.secretgreece.netdna-cdn.com/wp-content/uploads/2015/02/Drunk_sinatra3.jpg" alt="Bar" width="900" height="741">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+   </div>
+</div>
+
+  <div class="row">
+   <div class="col-md-6">
+
+    <h3>Bull in a China Shop</h3>
+
+<img src="https://thefoodedition.files.wordpress.com/2015/04/bull-in-a-china-shop.jpg" width='250'>
+
+<h4>Review</h4>
+
+<p>The spirits selection makes it a proper whisky destination – it has more Japanese whiskies than anywhere I’ve seen in London, from the cool Nikka From the Barrel to rare Karuizawa bottlings. There are some brilliant Scotches too, and a list of inventive whisky cocktails (a Wabi/Sabi at £12 was made with Hakushu single malt, vermouth, green tea syrup and black walnut bitters).
+
+The Bull’s menu, with its breakfast-to-late-night diversity, has a lot of good stuff on it. The rotisserie chicken is brined with ginger, marinated in yogurt and grilled with that whisky glaze – it’s great, although served in an annoying mess-style enamel bowl that makes it hard to cut. Most humans – civilians, at least – prefer to eat off plates. Remember that, restaurateurs.</p>
+
+<h3>Blue's KItchen</h3>
+
+<img src="http://musicforlondon.co.uk/wp-content/uploads/2012/12/bluk.jpg" width='250' >
+
+<h4>Review</h4>
+
+<p>This Curtain Road venue is close in style and sentiment to its big sister, The Blues Kitchen over in Camden. Expect, then, a restaurant, bar and music venue with a hefty Stateside influence - from its bourbon and its barbecues all the way to its blues. 
+
+Music does have a big part to play here. There's live artists pretty much every night of the week, with everything from rock 'n' roll to swing, motown, roots and even gospel complementing all that smokey blues. Keep an eye out for nights where food and music combine in happy harmony - think bargain ribs gnawed to a soundtrack of soul. 
+
+An in-house barbecue, with meats smoked over fruit woods in their own fire pit, is kept busy - orders of beef brisket, smoked chicken, short beef ribs and burnt ends glazed with a beer and hickory barbecue sauce prove popular. Burgers, chilli, lobster, gumbo and a catfish jambalaya also feature. </p>
+
+<h3>The Big Chill Bar</h3>
+
+<img src="https://media.timeout.com/images/65690/710/399/image.jpg" width='250' >
+
+<h4>Review</h4>
+
+<p>The bar of the festival has an ideal site in the buzzing courtyard of Dray Walk, a place for the many festie regulars to run amok in…in a chilled fashion. Designed as an ‘oasis of calm and tranquility’ there’s a comfort food menu, a mean cocktail list and an eclectic musical mix every night.</p>
+
+
+</div>
+
+   <div class="col-md-6">
+
+<h3>Cargo</h3>
+
+<img src="http://static1.squarespace.com/static/50be92bde4b026e3faaf1202/53a0bde3e4b0d80b1aca2dd1/53a0c0b6e4b017961ee1c63d/1403044023264/cargo3.jpg" width='250' >
+
+<h4>Review</h4>
+
+<p>One of east London's few purpose-built venues, Cargo launched with a clubbing-focused profile, but has since radically expanded its live remit, which now ranges from art punk through dubstep to psychedelic prog and wonk-pop. Its programme also includes plenty of underground artists building themselves a profile, provides intimate showcases to big-name artists ahead of their record releases and hosts label parties. The outdoor courtyard acts as a third room, away from the often over-stuffed performance space and lounge-bar area, and gigs are usually staged seven days a week.</p>
+
+<h3>Queen of Hoxton</h3>
+
+<img src="http://www.thecityowl.co.uk/wp-content/uploads/2014/09/Queen-of-Hoxton-Spitalfields.jpg" width='250' >
+
+<h4>Review</h4>
+
+<p>The Queen of Hoxton – pub, club and everything in between – offers an eclectic mix over two fun floors, with DJs playing on a cutting-edge disco/house tip on the weekends, while film nights, fringe theatre and food often take centre-stage during the week. Their huge rooftop is one of the funnest in London too – with an enormous wigwam set up during the winter months.</p>
+
+
+<h3>XOYO</h3>
+
+<img src="http://lukedyson.photography/images/blog/BUGGEDOut!%20-%20Tiga%20-%20XOYO%20-%202.jpg" width='250' >
+
+<h4>Review</h4>
+
+<p>Established in 2010, this excellent Shoreditch venue quickly cemented itself as one of the most on-point clubbing spaces and gig venues in London, thanks to a booking selection that ignored genre and simply focused on quality. Scores of London's hippest punters and party-lovers flock to XOYO every weekend to hear the latest DJs, producers (and – on weekdays – bands and singer-songwriters) do their thing over the club's two floors. </p>
+
+   </div>
+  </div>
+
+
+<div id="map"></div>
+<div id="body"></div> 
+
+</body>
+</html>
